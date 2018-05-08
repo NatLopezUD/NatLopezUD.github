@@ -6,17 +6,7 @@ title: Categories
 {% for post in site.zombis %}
   {% for category in post.categories %}
       {% capture category_name %}{{ category | first }}{% endcapture %}
-        <div id="#{{ category_name | slugize }}"></div>
-      <p></p>
-    
-      <h3>{{ category_name }}</h3>
-        <a name="{{ category_name | slugize }}"></a>
-          {% for test in post.categories[category_name] %}
-           <article class="archive-item">
-           <h4><a href="{{ site.baseurl }}{{ test.url }}">{{test.title}}</a></h4>
-           </article>
-          {% endfor %}
-{% endfor %}
+  {% endfor %}
 {% endfor %}
 
 
