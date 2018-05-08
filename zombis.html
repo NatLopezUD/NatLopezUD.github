@@ -5,8 +5,8 @@ title: Categories
 
 
 {% for post in site.zombis %}
-<h3>Annotated Bibliography</h3>
   {% for item in post.categories.Annotated_Bibliography %}
+     <h3>Annotated Bibliography</h3>
       <h2><a href="{{post.url | prepend: site.base.url }}"{{post.title}}</a>{{post.title}}</h2>
   {% endfor %}
 {% endfor %}
