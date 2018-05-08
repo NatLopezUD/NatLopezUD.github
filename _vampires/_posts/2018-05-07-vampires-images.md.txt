@@ -1,0 +1,11 @@
+----
+-layout: bestiario
+-title: Vampire Images
+-categories: Images
+-
+-published: true
+----
+-
+-
+-
+-## H2 Heading Looks Like This
