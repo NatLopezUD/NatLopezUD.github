@@ -1,7 +1,7 @@
 ---
 layout: bestiario
 title: annotated bib zombis 1
-categories: annotated bibliography
+categories: annotated_bibliography
 ---
 
 
