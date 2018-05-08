@@ -5,8 +5,8 @@ title: Categories
 
 {% for post in site.zombis %}
   {% for category in post.categories %}
-      {% capture category_name %}{{ category | first }}{% endcapture %}
-      {{ category_name }}
+     <!-- {% capture category_name %}{{ category | first }}{% endcapture %} --!>
+      {{ category }}
   {% endfor %}
 {% endfor %}
 
