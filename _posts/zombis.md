@@ -1,7 +1,7 @@
 ---
 layout: bestiario
 title: Zombis image
-categories: Images
+categories: zi
 author: Student 2
 ---
 
