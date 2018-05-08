@@ -1,7 +1,7 @@
 ---
 layout: bestiario
 title: Vampire Images
-categories: Images
+categories: vi
 author: student 4
 ---
 
