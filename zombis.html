@@ -3,10 +3,11 @@ layout: page
 title: Categories
 ---
 
-{% for category in zombis.categories %}
-     {% capture category_name %}{{ category }}{% endcapture %}
-<p></p>
-      {{ category_name }}
-  {% endfor %}
 
+{% for post in site.zombis %}
+<h3>Annotated Bibliography</h3>
+  {% for item in post.categories.Annotated_Bibliography %}
+      <h2><a href="{{post.url | prepend: site.base.url }}"{{post.title}}</a>{{post.title}}</h2>
+  {% endfor %}
+{% endfor %}
 
