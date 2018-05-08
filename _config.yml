@@ -73,6 +73,9 @@ exclude:
     - README.md
  
 collections:
-  monsters:
+  zombis:
     output: true
+  vampires:
+    output: true
+ 
 
