@@ -7,5 +7,9 @@ title: Categories
 
 {% for group in groups %}
     {{ group.name }}
+        {% assign items = item.items %}
+        {% for item in items %}
+            {{ item.title }}
 
+        {%endfor%}
 {%endfor%}
