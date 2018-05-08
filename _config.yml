@@ -72,10 +72,5 @@ exclude:
     - LICENSE
     - README.md
  
-collections:
-  zombis:
-    output: true
-  vampires:
-    output: true
- 
+
 
