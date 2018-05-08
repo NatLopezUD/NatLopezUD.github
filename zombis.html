@@ -4,9 +4,9 @@ title: Categories
 ---
 
 {% for post in site.zombis %}
-  <h2>{{post.title}}</h2>
   {% for category in post.categories %}
     <h3>{{category}}</h3>
+      <h2><a href="{{post.url | prepend: site.base.url }}"{{post.title}}</a>{{post.title}}</h2>
   {% endfor %}
 {% endfor %}
 
