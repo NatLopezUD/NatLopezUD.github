@@ -1,8 +1,7 @@
 ---
 layout: bestiario
-title: Zombis
-desc: 'Ex bonorum propriae ius, has id case habeo legimus, decore honestatis est ut.'
-
+title: Zombis image
+categories: images
 published: true
 ---
 
