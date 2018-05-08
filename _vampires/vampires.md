@@ -1,7 +1,7 @@
 ---
 layout: bestiario
-title: Zombis
-desc: 'Ex bonorum propriae ius, has id case habeo legimus, decore honestatis est ut.'
+title: Vampire Annotated Bibliography 1
+categories: Annotated Bibliography
 
 published: true
 ---
