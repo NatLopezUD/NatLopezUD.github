@@ -3,9 +3,7 @@ layout: page
 title: Categories
 ---
 
-{% for post in site.vampires %}
-  {% for category in vampires.categories %}
+{% for category in vampires.categories %}
     <h3>{{category}}</h3>
-  {% endfor %}
 {% endfor %}
 
