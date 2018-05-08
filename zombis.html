@@ -3,12 +3,19 @@ layout: page
 title: Categories
 ---
 
-   <!-- {% assign groups = site.zombis | group_by: "categories" | sort: "name" %}
+ {% for post in site.categories.zab %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
+ {% for post in site.categories.zi %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+<!-- {% assign groups = site.zombis | group_by: "categories" | sort: "name" %}
 
     {% for group in groups %}
         {{ group }}
 
-    {%endfor%} -->
+    {%endfor%}
 
 
 {% for c in site.zombis %}
@@ -17,3 +24,4 @@ title: Categories
 <h1>ONE CATEGORY</h1>
 <p>{{ c.content | group_by: "category" }}</p>
 {% endfor %}}
+ -->
