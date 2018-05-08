@@ -3,12 +3,10 @@ layout: page
 title: Categories
 ---
 
-{% for post in site.zombis %}
-  {% for category in site.categories %}
+{% for category in zombis.categories %}
      {% capture category_name %}{{ category }}{% endcapture %}
 <p></p>
       {{ category_name }}
   {% endfor %}
-{% endfor %}
 
 
