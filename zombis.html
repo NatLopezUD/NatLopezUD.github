@@ -3,9 +3,11 @@ layout: page
 title: Categories
 ---
 
+{% assign groups = site.zombis | group_by: "categories" | sort: "name" %}
 
-{% for category in site.zombis.categories %}
-  {{ category }}
-  <h1>test</h1>
-{% endfor %}
-
+{% for group in groups %}
+    {{ group.name }}
+    {% for item in group.items %}
+        {{item.abbrev}}
+    {%endfor%}
+{%endfor%}
