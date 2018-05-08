@@ -1,5 +1,5 @@
 ---
-layout: zombi
+layout: bestiario
 title: Hello World
 desc: Brief excerpt or project description goes here and looks like this
 proj-url: https://github.com/femmebot/jekyll-grid
