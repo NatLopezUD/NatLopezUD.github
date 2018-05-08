@@ -3,10 +3,12 @@ layout: page
 title: Categories
 ---
 
+<h1>Annotated Bibliography</h1>
  {% for post in site.categories.zab %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 
+<h1>Images</h1>
  {% for post in site.categories.zi %}
  <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
