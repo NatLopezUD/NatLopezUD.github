@@ -6,10 +6,6 @@ title: Categories
 {% assign groups = site.zombis | group_by: "categories" | sort: "name" %}
 
 {% for group in groups %}
-    {{ group.name }}
-        {% assign items = item.items %}
-        {% for item in items %}
-            {{ item.title }}
+    {{ group }}
 
-        {%endfor%}
 {%endfor%}
