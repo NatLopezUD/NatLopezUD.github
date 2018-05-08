@@ -6,7 +6,6 @@ title: Categories
 {% for post in site.vampires %}
   {% for category in vampires.categories %}
     <h3>{{category}}</h3>
-      <h2><a href="{{post.url | prepend: site.base.url }}"{{vampire.title}}</a>{{post.title}}</h2>
   {% endfor %}
 {% endfor %}
 
