@@ -1,7 +1,7 @@
 ---
 layout: bestiario
 title: Sample Post 1
-categories: Annotated_Bibliography
+categories: zab
 author: Student 1
 ---
 
